@@ -49,6 +49,12 @@ class UCommandLineParametersPluginBPLibrary : public UBlueprintFunctionLibrary
 		static FString GetFullCommandLine();
 
 	/**
+	* Get the command line
+	*/
+	UFUNCTION(BlueprintCallable, BlueprintPure, meta = (DisplayName = "Get Original Command Line", Keywords = "command line get original"), Category = "CommandLineParameters")
+		static FString GetOriginalCommandLine();
+
+	/**
 	* Sets CmdLine to the string given - for testing
 	*/
 	UFUNCTION(BlueprintCallable, meta = (DisplayName = "Set Command Line", Keywords = "set command line"), Category = "CommandLineParameters")

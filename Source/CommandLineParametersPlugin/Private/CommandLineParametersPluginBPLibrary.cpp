@@ -30,6 +30,11 @@ FString UCommandLineParametersPluginBPLibrary::GetFullCommandLine()
 	return FCommandLine::Get();
 }
 
+FString UCommandLineParametersPluginBPLibrary::GetOriginalCommandLine()
+{
+	return FCommandLine::GetOriginal();
+}
+
 bool UCommandLineParametersPluginBPLibrary::SetFullCommandLine(const FString& value)
 {
 	return FCommandLine::Set(*value);
