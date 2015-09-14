@@ -27,31 +27,31 @@ class UCommandLineParametersPluginBPLibrary : public UBlueprintFunctionLibrary
 	/**
 	* Is argument key present on command line as key=value?
 	*/
-	UFUNCTION(BlueprintCallable, BlueprintPure, meta = (DisplayName = "Command Line Arg Present", Keywords = "command line arg present"), Category = "CommandLineParameters")
+	UFUNCTION(BlueprintPure, meta = (DisplayName = "Command Line Arg Present", Keywords = "command line arg present"), Category = "CommandLineParameters")
 		static bool CommandLineArgPresent(const FString& key);
 	
 	/**
 	* Get string value of key for key=value from command line if present
 	*/
-	UFUNCTION(BlueprintCallable, BlueprintPure, meta = (DisplayName = "Command Line Arg Value", Keywords = "command line arg value"), Category = "CommandLineParameters")
+	UFUNCTION(BlueprintPure, meta = (DisplayName = "Command Line Arg Value", Keywords = "command line arg value"), Category = "CommandLineParameters")
 		static bool CommandLineArgValue(const FString& key, FString& value);
 
 	/**
 	* Get int value of key for key=value from command line if present
 	*/
-	UFUNCTION(BlueprintCallable, BlueprintPure, meta = (DisplayName = "Command Line Int Value", Keywords = "command line int value"), Category = "CommandLineParameters")
+	UFUNCTION(BlueprintPure, meta = (DisplayName = "Command Line Int Value", Keywords = "command line int value"), Category = "CommandLineParameters")
 		static bool CommandLineArgIntValue(const FString& key, int32& value);
 
 	/**
 	* Get the command line
 	*/
-	UFUNCTION(BlueprintCallable, BlueprintPure, meta = (DisplayName = "Get Command Line", Keywords = "command line get"), Category = "CommandLineParameters")
+	UFUNCTION(BlueprintPure, meta = (DisplayName = "Get Command Line", Keywords = "command line get"), Category = "CommandLineParameters")
 		static FString GetFullCommandLine();
 
 	/**
 	* Get the command line
 	*/
-	UFUNCTION(BlueprintCallable, BlueprintPure, meta = (DisplayName = "Get Original Command Line", Keywords = "command line get original"), Category = "CommandLineParameters")
+	UFUNCTION(BlueprintPure, meta = (DisplayName = "Get Original Command Line", Keywords = "command line get original"), Category = "CommandLineParameters")
 		static FString GetOriginalCommandLine();
 
 	/**

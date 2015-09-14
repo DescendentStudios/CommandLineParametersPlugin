@@ -1,9 +1,9 @@
 {
 	"FileVersion": 3,
-	"Version": 1,
-	"VersionName": "1.0",
+	"Version": 2,
+	"VersionName": "2.0",
 	"FriendlyName": "CommandLineParametersPlugin",
-	"Description": "Read command line arguments to Unreal from Blueprint",
+	"Description": "Read command line arguments to Unreal Engine from Blueprint",
 	"Category": "Blueprints",
 	"CreatedBy": "Descendent Studios",
 	"CreatedByURL": "",

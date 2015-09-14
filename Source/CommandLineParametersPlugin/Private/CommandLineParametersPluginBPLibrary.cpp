@@ -27,12 +27,12 @@ bool UCommandLineParametersPluginBPLibrary::CommandLineArgIntValue(const FString
 
 FString UCommandLineParametersPluginBPLibrary::GetFullCommandLine()
 {
-	return FCommandLine::Get();
+	return FString( FCommandLine::Get() );
 }
 
 FString UCommandLineParametersPluginBPLibrary::GetOriginalCommandLine()
 {
-	return FCommandLine::GetOriginal();
+	return FString( FCommandLine::GetOriginal() );
 }
 
 bool UCommandLineParametersPluginBPLibrary::SetFullCommandLine(const FString& value)
