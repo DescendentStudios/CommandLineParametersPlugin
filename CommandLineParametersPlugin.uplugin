@@ -6,10 +6,10 @@
 	"Description": "Read command line arguments to Unreal Engine from Blueprint",
 	"Category": "Blueprints",
 	"CreatedBy": "Descendent Studios",
-	"CreatedByURL": "",
-	"DocsURL": "",
-	"MarketplaceURL": "",
-	"SupportURL": "",
+	"CreatedByURL": "http://descendentstudios.com/",
+	"DocsURL": "http://descendentstudios.com/",
+	"MarketplaceURL": "http://descendentstudios.com/",
+	"SupportURL": "http://descendentstudios.com/",
 	"Modules": [
 		{
 			"Name": "CommandLineParametersPlugin",

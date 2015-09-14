@@ -2,14 +2,16 @@
 
 #include "CommandLineParametersPluginPrivatePCH.h"
 
-
+#include "CommandLineParametersPluginBPLibrary.h"
 
 #define LOCTEXT_NAMESPACE "FCommandLineParametersPluginModule"
 
 void FCommandLineParametersPluginModule::StartupModule()
 {
 	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
-	
+
+	// @HACK Force classes to be compiled on shipping build
+	UCommandLineParametersPluginBPLibrary::StaticClass();
 	
 }
 
