@@ -1,24 +1,21 @@
 {
-	"FileVersion": 3,
-	"Version": 2,
-	"VersionName": "2.0",
-	"FriendlyName": "CommandLineParametersPlugin",
+	"FileVersion" : 3,
+	
+	"FriendlyName" : "Command Line Parameters",
+	"Version" : 3,
+	"VersionName" : "3.0",
+	"CreatedBy" : "Descendent Studios",
+	"CreatedByURL" : "http://descendentstudios.com",
+	"EngineVersion" : 1579795,
 	"Description": "Read command line arguments to Unreal Engine from Blueprint",
 	"Category": "Blueprints",
-	"CreatedBy": "Descendent Studios",
-	"CreatedByURL": "http://descendentstudios.com/",
-	"DocsURL": "http://descendentstudios.com/",
-	"MarketplaceURL": "http://descendentstudios.com/",
-	"SupportURL": "http://descendentstudios.com/",
+	
 	"Modules": [
 		{
 			"Name": "CommandLineParametersPlugin",
-			"Type": "Developer",
+			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
 	],
-	"EnabledByDefault": false,
-	"CanContainContent": false,
-	"IsBetaVersion": false,
-	"Installed": false
+	"EnabledByDefault": false
 }
